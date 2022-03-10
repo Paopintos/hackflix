@@ -1,0 +1,44 @@
+:root {
+  --pink: rgb(225, 40, 90);
+  --soft-pink: rgb(227, 101, 134);
+  --gray: rgb(20, 20, 20);
+  --font-title: "Shrikhand", cursive;
+}
+
+.div-Movies {
+  height: 400px;
+  width: 272px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 15px;
+}
+.img-Movies {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.2s;
+}
+.img-Movies:hover {
+  transform: scale(1.1);
+  opacity: 85%;
+}
+.div-no-image {
+  background-color: #33333388;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.div-no-image:hover {
+  color: var(--pink);
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .div-Movies {
+    height: 220px;
+    width: 150px;
+  }
+}

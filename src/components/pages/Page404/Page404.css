@@ -1,0 +1,16 @@
+:root {
+  --pink: rgb(225, 40, 90);
+  --soft-pink: rgb(227, 101, 134);
+  --gray: rgb(20, 20, 20);
+  --font-title: "Shrikhand", cursive;
+}
+
+.div-page404 {
+  background-image: url("https://www.trecebits.com/wp-content/uploads/2020/11/Error-404.jpg");
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: 100%;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}

@@ -1,0 +1,35 @@
+:root {
+  --pink: rgb(225, 40, 90);
+  --soft-pink: rgb(227, 101, 134);
+  --gray: rgb(20, 20, 20);
+  --font-title: "Shrikhand", cursive;
+}
+
+.div-filter-rating {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-filter-by-rating {
+  margin: 0 7px;
+  display: inline-block;
+  color: white;
+  font-weight: 600;
+}
+.container-movies-rating {
+  margin: 0 170px 20px 170px;
+}
+.div-movies-rating {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 12px 15px 12px;
+}
+.img-movies-rating {
+  height: 220px;
+  width: 150px;
+  object-fit: cover;
+}
+.not-found-rating {
+  color: var(--pink);
+}

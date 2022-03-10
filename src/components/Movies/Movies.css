@@ -1,0 +1,20 @@
+:root {
+  --pink: rgb(225, 40, 90);
+  --soft-pink: rgb(227, 101, 134);
+  --gray: rgb(20, 20, 20);
+  --font-title: "Shrikhand", cursive;
+}
+
+.infinite-scroll-movies {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container-Movies {
+  padding: 0 10vw 20px 10vw;
+}
+.not-found-Movies {
+  color: var(--pink);
+}

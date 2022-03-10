@@ -1,0 +1,25 @@
+:root {
+  --pink: rgb(225, 40, 90);
+  --soft-pink: rgb(227, 101, 134);
+  --gray: rgb(20, 20, 20);
+  --font-title: "Shrikhand", cursive;
+}
+
+.form-search-title {
+  margin: 20px 0;
+}
+.label-search-title {
+  display: block;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 8px;
+}
+#search-input-title {
+  width: 30vw;
+  border: 0;
+  border-radius: 2px;
+  padding: 7px 10px;
+}
+#search-input-title:focus {
+  outline: 2px solid var(--pink);
+}

@@ -1,0 +1,71 @@
+:root {
+  --pink: rgb(225, 40, 90);
+  --soft-pink: rgb(227, 101, 134);
+  --gray: rgb(20, 20, 20);
+  --font-title: "Shrikhand", cursive;
+}
+
+.container-movie-details {
+  padding: 9vh 0 9vh 2vw;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas: "img-movie-details info-movie-details";
+  column-gap: 30px;
+  max-height: 80vh;
+  color: white;
+  text-align: start;
+}
+.no-image-available {
+  grid-area: img-movie-details;
+  display: flex;
+  width: 350px;
+  height: 520px;
+  background-color: #33333388;
+  align-items: center;
+  justify-content: center;
+}
+.img-movie-details {
+  grid-area: img-movie-details;
+  width: 350px;
+}
+.info-movie-details {
+  grid-area: info-movie-details;
+}
+.title-movie-details {
+  font-weight: 600;
+  margin: 1rem 0 2rem 0;
+}
+.overview-movie-details {
+  max-width: 40vw;
+}
+.h3-movie-doesnt-exist {
+  margin-top: 100px;
+  color: white;
+  font-size: 1.7rem;
+}
+.bad-rating {
+  color: red;
+}
+.regular-rating {
+  color: orange;
+}
+.good-rating {
+  color: green;
+}
+@media (max-width: 990px) {
+  .no-image-available {
+    width: 250px;
+    height: 380px;
+  }
+  .img-movie-details {
+    width: 250px;
+  }
+}
+@media (max-width: 700px) {
+  .title-movie-details {
+    font-size: 1.8rem;
+  }
+  .overview-movie-details {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,38 @@
+:root {
+  --pink: rgb(225, 40, 90);
+  --soft-pink: rgb(227, 101, 134);
+  --gray: rgb(20, 20, 20);
+  --font-title: "Shrikhand", cursive;
+}
+.container-carousel {
+  width: 100%;
+}
+#my-carousel {
+  margin: 0 !important;
+}
+#img-carousel {
+  max-height: 70vh;
+  object-fit: cover;
+  opacity: 50%;
+}
+.no-image-my-carousel {
+  background-color: var(--gray);
+  height: 70vh;
+  width: 100%;
+}
+.h3-title-carousel {
+  font-size: 2.5rem;
+  font-family: var(--font-title);
+}
+
+@media (max-width: 900px) {
+  .h3-title-carousel {
+    font-size: 2rem;
+  }
+  .p-vote-average-carousel {
+    font-size: 0.9rem;
+  }
+  .p-overview-carousel {
+    display: none;
+  }
+}
