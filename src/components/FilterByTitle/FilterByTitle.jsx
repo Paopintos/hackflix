@@ -30,7 +30,7 @@ function FilterByTitle({ movies, setMovies, apiPageNumber, setApiPageNumber }) {
   };
 
   return (
-    <Container>
+    <div>
       <form className="form-search-title">
         <label className="label-search-title" htmlFor="search-input-title">
           Search
@@ -43,7 +43,7 @@ function FilterByTitle({ movies, setMovies, apiPageNumber, setApiPageNumber }) {
         />
       </form>
       {title && <Movies movies={movies} getMoreMovies={getMoreMovies} />}
-    </Container>
+    </div>
   );
 }
 
