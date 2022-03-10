@@ -48,7 +48,6 @@ function FilterByRating({
       <div className="div-filter-rating">
         <p className="p-filter-by-rating">Filter by rating:</p>
         <ReactStars
-          className="stars"
           count={5}
           onChange={ratingChanged}
           size={24}

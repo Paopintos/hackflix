@@ -33,3 +33,6 @@
 .not-found-rating {
   color: var(--pink);
 }
+.div-filter-rating div {
+  outline: none !important;
+}
