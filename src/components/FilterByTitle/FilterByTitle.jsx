@@ -3,7 +3,6 @@ import axios from "axios";
 import Movies from "../Movies/Movies";
 import "./FilterByTitle.css";
 import tmdbApiConfig from "../../tmdbApiConfig";
-import { Container } from "react-bootstrap";
 
 function FilterByTitle({ movies, setMovies, apiPageNumber, setApiPageNumber }) {
   const [title, setTitle] = useState("");
@@ -33,7 +32,7 @@ function FilterByTitle({ movies, setMovies, apiPageNumber, setApiPageNumber }) {
     <div>
       <form className="form-search-title">
         <label className="label-search-title" htmlFor="search-input-title">
-          Search
+          Search movie
         </label>
         <input
           onChange={(event) => setTitle(event.target.value)}

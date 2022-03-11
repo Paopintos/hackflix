@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Movies.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import InfiniteScroll from "react-infinite-scroll-component";

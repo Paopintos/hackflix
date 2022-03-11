@@ -26,8 +26,7 @@ function About() {
           ullam rerum aliquid beatae praesentium neque nesciunt! Et amet eos id
           harum accusamus cumque expedita provident veritatis. Enim. Vel sequi
           magni totam labore hic ab sit nisi quam possimus, iste eos magnam
-          facere nemo nostrum! Expedita eaque necessitatibus recusandae, ipsum,
-          amet quas doloribus, obcaecati vero mollitia at temporibus!
+          facere nemo nostrum!
         </p>
         <Link to="/contact">
           <button className="btn-about">Contact us</button>
