@@ -20,6 +20,9 @@
   height: 70vh;
   width: 100%;
 }
+.p-vote-average-carousel {
+  font-weight: 500;
+}
 .h3-title-carousel {
   font-size: 2.5rem;
   font-family: var(--font-title);
@@ -34,5 +37,14 @@
   }
   .p-overview-carousel {
     display: none;
+  }
+}
+@media (max-width: 600px) {
+  .h3-title-carousel {
+    font-size: 1.5rem;
+  }
+  .p-vote-average-carousel {
+    font-size: 0.8rem;
+    font-weight: 500;
   }
 }
