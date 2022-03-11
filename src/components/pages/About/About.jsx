@@ -18,18 +18,37 @@ function About() {
           />
         </div>
         <p className="p-about">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor omnis
-          soluta suscipit nobis, dolores architecto eaque sunt fugiat voluptatem
-          laboriosam impedit possimus nesciunt consequatur dolorem quas
-          voluptatum commodi incidunt harum. Praesentium nulla veritatis
-          assumenda porro minima adipisci. Doloremque accusamus, nobis saepe sed
-          ullam rerum aliquid beatae praesentium neque nesciunt! Et amet eos id
-          harum accusamus cumque expedita provident veritatis. Enim. Vel sequi
-          magni totam labore hic ab sit nisi quam possimus, iste eos magnam
-          facere nemo nostrum!
+          Hackflix is a movie catalogue using React and{" "}
+          <a
+            className="links-about"
+            href="https://developers.themoviedb.org/3/getting-started/introduction"
+          >
+            themoviedb API
+          </a>
+          , made by Paola Pintos. The main objective was to show the movies from
+          the API and filter them by rating and title, the rest of the views are
+          for stethic only. For example, the contact page doesn't really send
+          any email, but maybe later i will implement that functionality. If you
+          liked this project and want to know more about me, you can reach out
+          to me at
+          <a
+            className="links-about"
+            href="https://www.linkedin.com/in/paolapintos/"
+          >
+            Linkedin
+          </a>{" "}
+          or
+          <a className="links-about" href="mailto: paopintos2000@gmail.com">
+            Email
+          </a>
+          , and check out my{" "}
+          <a className="links-about" href="https://github.com/Paopintos">
+            Github!
+          </a>{" "}
+          Thanks for reading this far :)
         </p>
         <Link to="/contact">
-          <button className="btn-about">Contact us</button>
+          <button className="btn-about">Contact me</button>
         </Link>
       </div>
     </div>

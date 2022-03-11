@@ -47,6 +47,14 @@
   padding: 10px 13px;
   transition: opacity 0.2s;
 }
+.links-about {
+  color: var(--pink);
+  margin: 0 4px;
+}
+.links-about:hover {
+  font-size: 1.3rem;
+  color: var(--soft-pink);
+}
 .btn-about:hover {
   opacity: 80%;
 }
@@ -85,11 +93,15 @@
   }
   .btn-about {
     font-size: 0.7rem;
+    margin: 10px 0;
     padding: 8px 9px;
   }
 }
 @media (max-width: 500px) {
   .h1-about {
     margin: 7px 0;
+  }
+  .btn-about {
+    margin: 0 0 20px 0;
   }
 }
